@@ -3,7 +3,7 @@ from uuid_generator import generate_uuid
 
 app = FastAPI()
 
-@app.get("/ping2")
+@app.get("/boba")
 async def ping(request: Request):
     """
     Return details about the incoming HTTP request.
